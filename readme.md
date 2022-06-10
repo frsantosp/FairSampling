@@ -19,16 +19,16 @@ Examples to run the sampling:
 
 Script 1: Get sample graph using Fair Random Walk(FRW) on a undirected graph on the German dataset.
 ```python
-python run_sampling_targeted.py --ego-exist 0 --path '.German/'  --sampler FRW  --undirected 1 --sample-number 10 --random-target 1
+python run_sampling_targeted.py --ego-exist 0 --path 'German/'  --sampler FRW  --undirected 1 --sample-number 10 --random-target 1
 ```
 
 Script 2: Get sample graph using Breadth First Search on a undirected graph on the credit dataset.
 ```Python
-python run_sampling_targeted.py --ego-exist 0 --path './data/Credit/' --protected Age  --sampler BFS  --undirected 1 --sample-number 1 --random-target 0
+python run_sampling_targeted.py --ego-exist 0 --path 'Credit/' --protected Age  --sampler BFS  --undirected 1 --sample-number 1 --random-target 0
 ```
 
 Script 3: Get sample graph using Greedy Fair Sampling on a undirected graph on the German dataset.
 ```python
-python run_sampling_targeted.py --ego-exist 0 --path './data/German/'  --sampler GF  --undirected 1 --sample-number 10 --random-target 0
+python run_sampling_targeted.py --ego-exist 0 --path 'German/'  --sampler GF  --undirected 1 --sample-number 10 --random-target 0
 ```
 
