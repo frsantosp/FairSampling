@@ -1,4 +1,4 @@
-#Topological and Fairness-Aware Graph Sampling for Network Analysis
+# Topological and Fairness-Aware Graph Sampling for Network Analysis
 
 Network sampling is the task of selecting a subset of nodes and links from a network in a way that preserves its topological
 properties and other user requirements. This paper investigates the problem of generating an unbiased network sample that contains
@@ -9,11 +9,11 @@ to generate a fair and representative sample from an initial set of target nodes
 for the output of the proposed greedy algorithm based on submodularity and curvature ratios is also presented.
 Experimental results on real-world datasets show that the proposed method will generate more fair and representative samples compared to other existing network sampling methods.
 
-##Datasets
+## Datasets
 
 The experiments were ran on four different real world datasets. The datasets used were Facebook, Tagged, Credit and German. All the datasets are in pickle files in the github.
 
-##Usage:
+## Usage:
 
 Examples to run the sampling:
 
