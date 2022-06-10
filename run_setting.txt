@@ -1,0 +1,25 @@
+# for german data
+python run_sampling_targeted.py --ego-exist 0 --path './data/German/'  --sampler RW  --undirected 1 --sample-number 10 --random-target 0
+
+python run_sampling_targeted.py --ego-exist 0 --path './data/German/'  --sampler FRW  --undirected 1 --sample-number 10 --random-target 1
+
+python run_sampling_targeted.py --ego-exist 0 --path './data/German/'  --sampler BFS  --undirected 1 --sample-number 10 --random-target 0
+python run_sampling_targeted.py --ego-exist 0 --path './data/German/'  --sampler DFS  --undirected 1 --sample-number 10 --random-target 0
+python run_sampling_targeted.py --ego-exist 0 --path './data/German/'  --sampler NSD  --undirected 1 --sample-number 10 --random-target 0
+python run_sampling_targeted.py --ego-exist 0 --path './data/German/'  --sampler NS  --undirected 1 --sample-number 10 --random-target 0
+python run_sampling_targeted.py --ego-exist 0 --path './data/German/'  --sampler GF  --undirected 1 --sample-number 10 --random-target 0
+
+python run_sampling_targeted.py --ego-exist 0 --path './data/German/'  --sampler MHRW  --undirected 1 --sample-number 10 --random-target 0
+
+
+python run_sampling_targeted.py --ego-exist 0 --path './data/Credit/' --protected Age  --sampler RW  --undirected 1 --sample-number 10 --random-target 0
+
+python run_sampling_targeted.py --ego-exist 0 --path './data/Credit/' --protected Age  --sampler FRW  --undirected 1 --sample-number 10 --random-target 1
+
+python run_sampling_targeted.py --ego-exist 0 --path './data/Credit/' --protected Age  --sampler BFS  --undirected 1 --sample-number 1 --random-target 0
+python run_sampling_targeted.py --ego-exist 0 --path './data/Credit/' --protected Age  --sampler BFS  --undirected 1 --sample-number 10 --random-target 1
+
+
+python run_sampling_targeted.py --ego-exist 0 --path './data/Tagged7/'  --sampler DFS  --undirected 1 --sample-number 1 --random-target 1
+
+python run_sampling_targeted.py --ego-exist 0 --path './data/Tagged7/'  --sampler FRW  --undirected 1 --sample-number 1 --random-target 1
